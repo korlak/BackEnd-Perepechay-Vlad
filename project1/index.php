@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>ЛР1</title>
     <style>
-        table {
-
+        .backgrond {
+            background: image();
             border: 2px solid #505050;
         }
 

@@ -101,3 +101,12 @@ $programmer->cleanKitchen();
 echo "Програміст з досвідом роботи " . $programmer->getExperience() . "\n" . "<br>";
 echo "Зріст: " . $programmer->getHeight() . " см, Вага: " . $programmer->getWeight() . " кг, Вік: " . $programmer->getAge() . " років\n". "<br>";
 echo "Володіння мовами програмування: " . implode(", ", $programmer->getProgrammingLanguages()) . "\n". "<br>";
+echo "---------------------------------------------------------------" . "<br>";
+?>
+Логін: <input type="text" name="login" />
+<?php
+if(isset($_POST['login'])){
+     $login=htmlentities($_POST['login']);
+        echo "Ваш логін: $login ";
+}
+?>

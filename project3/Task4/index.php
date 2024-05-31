@@ -23,6 +23,12 @@
         <legend>Завантажте фотографію</legend>
         <input type="file" accept="image" name="picture"><br>
         <input type="submit" value="SEND"><br>
+
+        <input type="checkbox" name="aaa" value="123">
+        <input type="checkbox" name="aaa" value="124">
+        <input type="checkbox" name="aaa" value="125">
+        <input type="checkbox" name="aaa" value="126">
+
     </form>
 
 </body>
